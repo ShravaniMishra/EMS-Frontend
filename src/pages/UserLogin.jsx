@@ -53,7 +53,7 @@ export const UserLogin = () => {
   return (
     <UserLoginForm>
       <h1 className="section_heading">
-        Users
+        User
         <span style={{ textDecoration: "bold", color: "brown" }}>
           {" "}
           Login Form
