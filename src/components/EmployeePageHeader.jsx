@@ -21,7 +21,7 @@ export const EmployeePageHeader = ({ emp_id, employee }) => {
         color="success"
         onClick={() => navigate(-1)}
       >
-        Back
+        RETURN BACK
       </Button>
       <Button
         variant="contained"
@@ -41,9 +41,6 @@ export const EmployeePageHeader = ({ emp_id, employee }) => {
       >
         Edit Employee
       </Button>
-      <Button variant="contained" color="success" startIcon={<EditIcon />}>
-        Edit Prev Employment
-      </Button>
-    </Box>
+     </Box>
   );
 };

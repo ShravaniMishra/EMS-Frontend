@@ -19,7 +19,7 @@ export const DashboardHeader = ({ setShow, show }) => {
         onClick={() => setShow(comps.register)}
         color="success"
       >
-        Welcome {user}
+        Welcome
       </Button>
       <Button
         variant={show == comps.totalEmp ? "contained" : "outlined"}
