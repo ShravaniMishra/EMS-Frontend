@@ -63,7 +63,7 @@ export const UserLogin = () => {
         <TextField
           name="username"
           type="text"
-          placeholder="Username"
+          placeholder="Enter Username"
           onChange={handleChange}
           value={values.username}
           label="Username"
@@ -76,7 +76,7 @@ export const UserLogin = () => {
         <TextField
           name="password"
           type="password"
-          placeholder="Password"
+          placeholder="Enter your Password "
           value={values.password}
           onChange={handleChange}
           label="Password"
