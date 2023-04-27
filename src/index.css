@@ -16,7 +16,9 @@
   --fourth-color-lite: #24aaa7;
 
 }
-
+body{
+  background-image: linear-gradient(rgb(152, 247, 247),rgb(235, 166, 235));
+}
 .btn {
   text-transform: uppercase;
   outline: none;
