@@ -17,6 +17,8 @@
 
 }
 body{
+  width: 100%;
+  height: 100vh;
   background-image: linear-gradient(rgb(152, 247, 247),rgb(235, 166, 235));
 }
 .btn {
